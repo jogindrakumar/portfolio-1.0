@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    padding: 0 40px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+header .logo {
+    font-weight: 700;
+    color: rgb(247, 174, 65);
+    font-size: 2rem;
+}
+
+header .menu ul {
+    display: flex;
+}
+
+header .menu ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 174, 65);
+}
+
+header .menu li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgb(247, 174, 65);
+}
+
+header li .menu-btn {
+    background: white;
+    padding: 15px 15px;
+    border-radius: 40px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(247, 174, 65);
+    /* height: 40px; */
+}
+
+header li .menu-btn:hover {
+    background-color: rgb(247, 174, 65);
+    color: white;
+}
+
+.hero-container {
+    margin: 0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.heading-section h1 {
+    font-size: 5rem;
+    color: rgb(247, 174, 65);
+}
+
+.heading-section p {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.heading-section button {
+    margin-top: 40px;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(247, 174, 65);
+    color: white;
+    text-transform: capitalize;
+}
+
+.heading-section button:hover {
+    background: orangered;
+}
+
+.hero-container .image-section img {
+    height: 400px;
+    width: 400px;
+}
+
+.project-container {
+    display: flex;
+    margin: 0 250px;
+}
+
+.project-container .project {
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 90px;
+    border-radius: 20px;
+    background-image: linear-gradient( 174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+}
+
+.project-container .project h1 {
+    font-size: 2rem;
+}
+
+.project-container .project a {
+    padding-top: 20px;
+}
+
+.footer {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+
+/* media query */
+
+@media only screen and (max-width:600px) {
+    .main-nav {
+        font-size: .5em;
+        padding: 0;
+    }
+}
